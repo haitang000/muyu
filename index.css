@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-image: url("muyv.webp");
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#count {
+    transition: all 0.1s cubic-bezier(0.5, 0.35, 0.15, 1.4);
+    transform: scale(1);
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+footer p {
+    color: rgb(160, 160, 160);
+    font-size: 1rem;
+    margin-top: 20px;
+}
+footer #keyboard {
+    background-color: #ffffff10;
+    padding: 4px 8px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
